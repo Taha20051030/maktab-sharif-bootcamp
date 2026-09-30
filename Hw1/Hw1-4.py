@@ -2,7 +2,7 @@ import random
 status = False
 base = random.randint(1, 20)
 for _ in range(5):
-    print("Please enter a number between 1 and 100:20")
+    print("Please enter a number between 1 and 20:")
     inp = int(input())
     if base == inp:
         status = True
